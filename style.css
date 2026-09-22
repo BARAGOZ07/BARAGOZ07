@@ -1,170 +1,36 @@
-/* Общие настройки */
-
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #0b3d2e;
+    background-color: darkgreen;
     color: white;
 }
 
-
-/* ШАПКА */
-
 #header {
     width: 100%;
-    background-color: #000000;
-    border-bottom: 2px solid #145a42;
+    background-color: black;
+    padding: 20px;
+    box-sizing: border-box;
 }
 
 .header-content {
     max-width: 960px;
-    margin: 0 auto;
-
-    display: flex;
-    align-items: center;
-
-    padding: 10px 0;
-}
-
-
-/* ЛОГО */
-
-.logo {
-    margin-right: 20px;
-}
-
-.logo img {
-    object-fit: cover;
-}
-
-
-/* НАЗВАНИЕ САЙТА */
-
-.site-name {
-    flex: 1;
-}
-
-.site-name h1 {
-    margin: 0;
-    color: white;
-}
-
-
-/* МЕНЮ */
-
-#menu {
-    display: flex;
-    gap: 20px;
+    margin: auto;
 }
 
 #menu a {
-    text-decoration: none;
     color: white;
+    margin-right: 20px;
 }
-
-#menu a:hover {
-    color: #4caf80;
-    text-decoration: underline;
-}
-
-
-/* ОСНОВНОЙ КОНТЕНТ */
 
 .content {
     max-width: 960px;
-    margin: 0 auto;
-    padding: 20px 0;
+    margin: auto;
+    padding: 20px;
 }
-
-
-/* ССЫЛКИ */
-
-.content a {
-    color: #8ee0b5;
-}
-
-.content a:hover {
-    color: white;
-}
-
-
-/* ТАБЛИЦА */
-
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-bottom: 30px;
-}
-
-th,
-td {
-    border: 1px solid #000000;
-    padding: 10px;
-    text-align: center;
-}
-
-
-/* ЗАГОЛОВОК ТАБЛИЦЫ */
-
-th {
-    background-color: #000000;
-    color: white;
-}
-
-
-/* ЧЁТНЫЕ СТРОКИ */
-
-tbody tr:nth-child(even) {
-    background-color: #174f3d;
-}
-
-
-/* НЕЧЁТНЫЕ СТРОКИ */
-
-tbody tr:nth-child(odd) {
-    background-color: #236b51;
-}
-
-
-/* ФОРМА */
-
-form {
-    margin-bottom: 30px;
-}
-
-input,
-select,
-textarea {
-    margin-top: 5px;
-}
-
-
-/* КНОПКА */
-
-input[type="submit"] {
-    background-color: #000000;
-    color: white;
-    border: 1px solid white;
-    padding: 8px 20px;
-    cursor: pointer;
-}
-
-input[type="submit"]:hover {
-    background-color: #174f3d;
-}
-
-
-/* ПОДВАЛ */
 
 #footer {
     width: 100%;
-    background-color: #000000;
-    border-top: 2px solid #145a42;
-}
-
-.footer-content {
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 20px 0;
+    background-color: black;
+    padding: 20px;
+    box-sizing: border-box;
     color: white;
 }
