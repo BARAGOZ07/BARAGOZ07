@@ -3,6 +3,8 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
+    background-color: #0b3d2e;
+    color: white;
 }
 
 
@@ -10,8 +12,8 @@ body {
 
 #header {
     width: 100%;
-    background-color: #eeeeee;
-    border-bottom: 1px solid #cccccc;
+    background-color: #000000;
+    border-bottom: 2px solid #145a42;
 }
 
 .header-content {
@@ -44,6 +46,7 @@ body {
 
 .site-name h1 {
     margin: 0;
+    color: white;
 }
 
 
@@ -56,10 +59,11 @@ body {
 
 #menu a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 #menu a:hover {
+    color: #4caf80;
     text-decoration: underline;
 }
 
@@ -73,6 +77,17 @@ body {
 }
 
 
+/* ССЫЛКИ */
+
+.content a {
+    color: #8ee0b5;
+}
+
+.content a:hover {
+    color: white;
+}
+
+
 /* ТАБЛИЦА */
 
 table {
@@ -83,16 +98,16 @@ table {
 
 th,
 td {
-    border: 1px solid black;
+    border: 1px solid #000000;
     padding: 10px;
     text-align: center;
 }
 
 
-/* ШАПКА ТАБЛИЦЫ */
+/* ЗАГОЛОВОК ТАБЛИЦЫ */
 
 th {
-    background-color: #555555;
+    background-color: #000000;
     color: white;
 }
 
@@ -100,14 +115,14 @@ th {
 /* ЧЁТНЫЕ СТРОКИ */
 
 tbody tr:nth-child(even) {
-    background-color: #eeeeee;
+    background-color: #174f3d;
 }
 
 
 /* НЕЧЁТНЫЕ СТРОКИ */
 
 tbody tr:nth-child(odd) {
-    background-color: white;
+    background-color: #236b51;
 }
 
 
@@ -124,16 +139,32 @@ textarea {
 }
 
 
+/* КНОПКА */
+
+input[type="submit"] {
+    background-color: #000000;
+    color: white;
+    border: 1px solid white;
+    padding: 8px 20px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #174f3d;
+}
+
+
 /* ПОДВАЛ */
 
 #footer {
     width: 100%;
-    background-color: #eeeeee;
-    border-top: 1px solid #cccccc;
+    background-color: #000000;
+    border-top: 2px solid #145a42;
 }
 
 .footer-content {
     max-width: 960px;
     margin: 0 auto;
     padding: 20px 0;
+    color: white;
 }
