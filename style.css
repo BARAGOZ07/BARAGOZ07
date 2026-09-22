@@ -1,0 +1,139 @@
+/* Общие настройки */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+/* ШАПКА */
+
+#header {
+    width: 100%;
+    background-color: #eeeeee;
+    border-bottom: 1px solid #cccccc;
+}
+
+.header-content {
+    max-width: 960px;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+
+    padding: 10px 0;
+}
+
+
+/* ЛОГО */
+
+.logo {
+    margin-right: 20px;
+}
+
+.logo img {
+    object-fit: cover;
+}
+
+
+/* НАЗВАНИЕ САЙТА */
+
+.site-name {
+    flex: 1;
+}
+
+.site-name h1 {
+    margin: 0;
+}
+
+
+/* МЕНЮ */
+
+#menu {
+    display: flex;
+    gap: 20px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: black;
+}
+
+#menu a:hover {
+    text-decoration: underline;
+}
+
+
+/* ОСНОВНОЙ КОНТЕНТ */
+
+.content {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+
+/* ТАБЛИЦА */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+
+/* ШАПКА ТАБЛИЦЫ */
+
+th {
+    background-color: #555555;
+    color: white;
+}
+
+
+/* ЧЁТНЫЕ СТРОКИ */
+
+tbody tr:nth-child(even) {
+    background-color: #eeeeee;
+}
+
+
+/* НЕЧЁТНЫЕ СТРОКИ */
+
+tbody tr:nth-child(odd) {
+    background-color: white;
+}
+
+
+/* ФОРМА */
+
+form {
+    margin-bottom: 30px;
+}
+
+input,
+select,
+textarea {
+    margin-top: 5px;
+}
+
+
+/* ПОДВАЛ */
+
+#footer {
+    width: 100%;
+    background-color: #eeeeee;
+    border-top: 1px solid #cccccc;
+}
+
+.footer-content {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
