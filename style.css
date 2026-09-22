@@ -1,12 +1,14 @@
 body {
     margin: 0;
-    background: #06261d !important;
+    background-color: #240606 !important;
     color: white;
 }
 
+/* ЧЁРНАЯ ШАПКА */
+
 #header {
     width: 100%;
-    background: #000000 !important;
+    background-color: #000000 !important;
     padding: 20px;
     box-sizing: border-box;
 }
@@ -16,10 +18,16 @@ body {
     margin: auto;
 }
 
+
+/* ЛОГО */
+
 .logo {
     display: inline-block;
     margin-right: 20px;
 }
+
+
+/* НАЗВАНИЕ */
 
 .site-name {
     display: inline-block;
@@ -28,6 +36,9 @@ body {
 .site-name h1 {
     color: white;
 }
+
+
+/* МЕНЮ */
 
 #menu {
     display: inline-block;
@@ -39,15 +50,24 @@ body {
     margin-right: 20px;
 }
 
+
+/* ОСНОВНОЙ КОНТЕНТ */
+
 .content {
     max-width: 960px;
     margin: auto;
     padding: 20px;
 }
 
+
+/* ССЫЛКИ */
+
 .content a {
-    color: #8bd8ae;
+    color: #ff9999;
 }
+
+
+/* ТАБЛИЦА */
 
 table {
     width: 100%;
@@ -62,21 +82,36 @@ td {
 }
 
 th {
-    background: black;
+    background-color: black;
     color: white;
 }
 
+
+/* СТРОКИ ТАБЛИЦЫ */
+
 tbody tr:nth-child(odd) {
-    background: #0a3024;
+    background-color: #3a0b0b;
 }
 
 tbody tr:nth-child(even) {
-    background: #0e3b2d;
+    background-color: #501010;
 }
+
+
+/* ФОРМА */
+
+input,
+select,
+textarea {
+    margin-top: 5px;
+}
+
+
+/* ЧЁРНЫЙ ПОДВАЛ */
 
 #footer {
     width: 100%;
-    background: #000000 !important;
+    background-color: #000000 !important;
     padding: 20px;
     box-sizing: border-box;
     color: white;
