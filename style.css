@@ -19,14 +19,30 @@ body {
     border: 2px solid #0d3d2f;
 }
 
+/* Шапка */
 .header-content {
     max-width: 960px;
     margin: auto;
+
+    display: flex;
+    align-items: flex-start;
+}
+
+/* Название сайта */
+.site-name {
+    margin-left: 20px;
+}
+
+/* Меню */
+#menu {
+    display: flex;
+    margin-left: auto;
+    gap: 15px;
 }
 
 #menu a {
     color: lightseagreen;
-    margin-right: 20px;
+    margin-right: 0;
 }
 
 .content {
